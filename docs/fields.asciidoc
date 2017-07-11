@@ -83,8 +83,16 @@ type: long
 
 required: True
 
-PLEASE UPDATE DOCUMENTATION
+counter
 
+[float]
+=== path
+
+type: text
+
+required: True
+
+counter path
 
 [[exported-fields-cloud]]
 == Cloud Provider Metadata Fields

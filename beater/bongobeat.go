@@ -49,6 +49,7 @@ func (bt *Bongobeat) Run(b *beat.Beat) error {
 			"@timestamp": common.Time(time.Now()),
 			"type":       b.Name,
 			"counter":    counter,
+			"path":       "bongobeat.counter",
 		}
 		bt.client.PublishEvent(event)
 		logp.Info("Event sent")
