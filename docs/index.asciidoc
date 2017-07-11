@@ -1,0 +1,5 @@
+= Bongobeat Docs
+
+Welcome to the Bongobeat documentation.
+
+
